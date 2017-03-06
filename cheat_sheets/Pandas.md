@@ -153,7 +153,8 @@ import numpy as np
 |`df.max()`|Finds the highest value in each column.|
 |`df.min()`|Finds the lowest valued|
 |`df.median()`|Finds the median of each column.|
-|`df.std()`|Finds the standard deviation of each column.
+|`df.std()`|Finds the standard deviation of each column.|
+|`pandas.to_numeric(arg, errors='coerce')`|Convert argument to a numeric type.|
 
 
 
