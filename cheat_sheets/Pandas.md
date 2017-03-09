@@ -139,6 +139,7 @@ import numpy as np
 |`pdf1.append(df2)`|dd the rows in df1 to the end of df2 (columns should be identical)|
 |`df.concat([df1, df2],axis=1)`|Add the columns in df1 to the end of df2 (rows should be identical)|
 |`df1.join(df2,on=col1,how='inner')`|SQL-style join the columns in df1 with the columns on df2 where the rows for col have identical values. how can be one of 'left', 'right', 'outer', 'inner'|
+|`df1.merge(df2,on=col1,how='inner')`|Merge DataFrame objects by performing a database-style join operation by columns or indexes.. how can be one of 'left', 'right', 'outer', 'inner', on= the columns you want to joint on list or label|
 
 
 ### Statistics <a name="statistics"></a>
