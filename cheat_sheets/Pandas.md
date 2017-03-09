@@ -140,6 +140,11 @@ import numpy as np
 |`df.concat([df1, df2],axis=1)`|Add the columns in df1 to the end of df2 (rows should be identical)|
 |`df1.join(df2,on=col1,how='inner')`|SQL-style join the columns in df1 with the columns on df2 where the rows for col have identical values. how can be one of 'left', 'right', 'outer', 'inner'|
 |`df1.merge(df2,on=col1,how='inner')`|Merge DataFrame objects by performing a database-style join operation by columns or indexes.. how can be one of 'left', 'right', 'outer', 'inner', on= the columns you want to joint on list or label|
+|`inner merge/join`|an inner merge/join we'd only combine rows where the same columns existed in both datasets'|
+|`left merge/join`|a left merge/koint we'll only use the column value from the dataframe of the left'|
+|`righ merge/join`|a right merge, we'll only use column values from the Dataframe on the "right" of the merge|
+|`outer merge/join`|an outer merge, we'll take any column values from either both of the dataframes|
+
 
 
 ### Statistics <a name="statistics"></a>
